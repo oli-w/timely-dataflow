@@ -11,3 +11,6 @@ homepage = "https://github.com/TimelyDataflow/timely-dataflow"
 repository = "https://github.com/TimelyDataflow/timely-dataflow.git"
 keywords = ["timely", "dataflow", "logging"]
 license = "MIT"
+
+[dependencies]
+web-time = "1.1.0"

@@ -3,7 +3,8 @@ use std::rc::Rc;
 use std::cell::RefCell;
 use std::any::Any;
 use std::collections::HashMap;
-use std::time::{Instant, Duration};
+use std::time::{Duration};
+use web_time::{Instant};
 use std::fmt::{self, Debug};
 
 pub struct Registry<Id> {
