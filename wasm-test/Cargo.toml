@@ -1,0 +1,15 @@
+[package]
+name = "wasm_test"
+version = "0.12.0"
+edition = "2018"
+description = "Tests timely dataflow in WebAssembly"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+timely = { git = "https://github.com/frankmcsherry/timely-dataflow", branch = "timeless" }
+
+wasm-bindgen = "0.2.93"
+wasm-bindgen-test = "0.3.43"

@@ -5,6 +5,7 @@ members = [
     "container",
     "logging",
     "timely",
+    "wasm-test"
 ]
 
 [profile.release]
